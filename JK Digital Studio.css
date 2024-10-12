@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+}
+.whatsapp_icon{
+    color:white;
+    font-size: 42px;
+    position: relative;
+    top: 2px;
+    left: 14px;
+
+}
+.whatsapp_icon_container{
+    background-color:#25D366;
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    bottom: 18px;
+    left: 20px;
+    border-radius: 40px;
+    z-index: 1000;
+}
+.phone_icon{
+    color:white;
+    font-size: 38px;
+    position: relative;
+    top: 5px;
+    left: 16px;
+
+}
+.phone_icon_container{
+    background-color:#4285F4;
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    bottom: 108px;
+    left: 20px;
+    border-radius: 40px;
+    z-index: 1000;
+}
+.instagram_icon{
+    color:white;
+    font-size: 42px;
+    position: relative;
+    top: 3px;
+    left: 14px;
+
+}
+.instagram_icon_container{
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 75%,#285AEB 90%);
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    bottom: 200px;
+    left: 20px;
+    border-radius: 40px;
+    z-index: 1000;
+}
+.card_container{
+    background-color: #fdf497;
+    width: 26vw;
+    height: 300px;
+    border-radius: 20px;
+
+}
+.card_content{
+    padding-top: 20px;
+    text-align: center;
+}
+.navbar{
+    background-color: black;
+}
+.carousel-img {
+    padding: 0; /* Remove padding */
+    margin: 0;
+    position: relative;
+    margin-top: 50px;
+    width: 1500px;
+    height: 500px;
+    object-fit: cover; /* Ensure images cover the area without distortion */
+    -webkit-mask-image: linear-gradient(to top, transparent 0%, black 90%); /* Apply mask for fade effect */
+    mask-image: linear-gradient(to top, transparent 0%, black 33%);
+}
+.tag_line{
+    position: absolute; /* Keep this as absolute */
+    top: -230px;
+    left: 70px;
+    text-align: center;
+    z-index: 10;
+    background: radial-gradient(circle, #a4027e, #7c0143, #610068, #6a008b, #33009a); /* Your desired gradient colors */
+    -webkit-background-clip: text; /* Clip background to text */
+    -webkit-text-fill-color: transparent; /* Make text transparent */
+}
+body {
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+.card_1{
+    position: absolute; /* Keep this as absolute */
+    top: 25%;
+    left: 19vw;
+    transform: translate(-50%, -50%); /* Center the cards */
+    z-index: 10; /* Ensure cards are above the carousel */
+}
+.card_2{
+    position: absolute; /* Keep this as absolute */
+    top: 25%;
+    left: 16vw;
+    transform: translate(-50%, -50%); /* Center the cards */
+    z-index: 10; /* Ensure cards are above the carousel */
+}
+.card_3{
+    position: absolute; /* Keep this as absolute */
+    top: 25%;
+    left: 13vw;
+    transform: translate(-50%, -50%); /* Center the cards */
+    z-index: 10; /* Ensure cards are above the carousel */
+}
+.card_4{
+    position: absolute; /* Keep this as absolute */
+    top: 120%;
+    left: 19vw;
+    transform: translate(-50%, -50%); /* Center the cards */
+    z-index: 10; /* Ensure cards are above the carousel */
+}
+.card_4{
+    position: absolute; /* Keep this as absolute */
+    top: 120%;
+    left: 19vw;
+    transform: translate(-50%, -50%); /* Center the cards */
+    z-index: 10; /* Ensure cards are above the carousel */
+}
+.card_5{
+    position: absolute; /* Keep this as absolute */
+    top: 120%;
+    left: 16vw;
+    transform: translate(-50%, -50%); /* Center the cards */
+    z-index: 10; /* Ensure cards are above the carousel */
+}
+.card_6{
+    position: relative; /* Keep this as absolute */
+    top: 120%;
+    left: 11.9vw;
+    transform: translate(-50%, -50%); /* Center the cards */
+    z-index: 10; /* Ensure cards are above the carousel */
+}
